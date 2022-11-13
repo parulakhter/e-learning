@@ -59,7 +59,7 @@
             </div>
         </nav>
 
-        <!-- Image Slider -->
+        <!-- ====== Image Slider  -->
         <section class="container my-3">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -73,7 +73,7 @@
                 <div class="carousel-inner rounded-3">
                     <div class="carousel-item active">
                         <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <h1>Get Started Digital Learning</h1>
                             <p>It is a long established fact that a reader will be distracted by the readable content of
                                 a page when looking at its layout.</p>
@@ -84,7 +84,7 @@
                     </div>
                     <div class="carousel-item">
                         <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <h1>MBA Marketing</h1>
                             <p>Are you looking to move up the career ladder and elevate your management skills to the
                                 highest level? Start your comprehensive study of modern business.</p>
@@ -95,7 +95,7 @@
                     </div>
                     <div class="carousel-item">
                         <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-md-block">
                             <h1>Human Resource Management</h1>
                             <p>HR management subject matter as well as giving you the skills to tackle the issue of
                                 digitalization faced by companies in the modern world..</p>
@@ -119,11 +119,11 @@
         </section>
     </header>
 
-    <!-- Main Area -->
+    <!-- ===== Main Area ====== -->
     <main class="container">
-        <!-- Course-area -->
+        <!-- ===== Course-area ====== -->
         <section class="my-5 pt-5">
-            <div class="pb-3 text-center w-50 mx-auto">
+            <div class="pb-3 text-center col-lg-6 col-md-12 col-12 col-sm-12 mx-auto">
                 <h2 class="fw-bold">Discover Our Popular Courses</h2>
                 <p class="text-secondary">It is a long established fact that a reader will be distracted by the readable
                     content of a page
@@ -215,16 +215,16 @@
             </div>
         </section>
 
-        <!-- E-learning institute -->
+        <!-- ===== E-learning institute ===== -->
         <section class="mb-5 pb-5">
             <div class="card mb-3 border-0">
                 <div class="row g-0 bg-light d-flex align-items-center">
                     <div class="col-md-5">
                         <img src="images/working.png" class="img-fluid rounded-start" alt="...">
                     </div>
-                    <div class="col-md-7 ps-3">
+                    <div class="col-md-7 col-12 ps-3">
                         <div class="card-body">
-                            <h2 class="card-title">Explore The elearning<br> Institute</h2>
+                            <h2 class="card-title">Explore The Elearning Institute</h2>
                             <p class="card-text text-secondary">There are many variations of passages of Lorem Ipsum
                                 available, but the
                                 majority have suffered alteration in some form, by injected humour, or randomised words
@@ -235,16 +235,16 @@
                                 Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on
                                 the
                                 Internet tend to repeat predefined.</p>
-                            <div class="d-flex ">
-                                <div class="me-5">
+                            <div class="mt-5 d-flex row">
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-6">
                                     <h2>3.2K+</h2>
                                     <p class="text-secondary">Online Course</p>
                                 </div>
-                                <div class="me-5">
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-6">
                                     <h2>600+</h2>
                                     <p class="text-secondary">Expert member</p>
                                 </div>
-                                <div class="me-5">
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-6">
                                     <h2>1k+</h2>
                                     <p class="text-secondary">Rating & Review</p>
                                 </div>
@@ -256,18 +256,138 @@
             </div>
         </section>
 
-        <!-- Register Area -->
+        <!-- ===== Register Area ===== -->
 
         <section class="my-5">
-            <div class="d-flex bg-success rounded-3 align-items-center justify-content-between p-5">
-                <div class="col-12 col-lg-6 col-md-6">
+            <div
+                class="d-flex flex-lg-row flex-md-column flex-sm-column flex-column  bg-success rounded-3 align-items-center p-5 ">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-lg-start text-md-center text-center">
                     <h2 class="text-white">Ready to join?</h2>
                     <p class="text-white">It is a long established fact that a reader will be distracted by the
                         readable content of a page when looking at its layout.</p>
                 </div>
-                <div class="">
-                    <button class="btn btn-light">Register Now</button>                                        
+                <div class="col-lg-6 col-md-12 col-12 text-lg-end text-md-center text-center">
+                    <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Register
+                        Now</button>
                 </div>
+            </div>
+
+            <!-- ===== Modal ===== -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="text-uppercase bg-success text-white w-100 p-4 rounded-3" id="exampleModalLabel">
+                                Registration form</h5>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="Enter your full name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Address</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="Street address">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Phone
+                                                Number</label>
+                                            <input type="number" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="Enter your phone number">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="Enter your email address">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Gender</label>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Select your gender</option>
+                                                <option value="male">Male</option>
+                                                <option value="female">Female</option>
+                                                <option value="transgender">Transgender</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlTextarea1" class="form-label">Notes/Secial
+                                                Requirments</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                rows="3"></textarea>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Create Your
+                                                Password</label>
+                                            <input type="password" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="Password">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-success">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Students Area ===== -->
+
+        <section class="my-5">
+            <div class="col-lg-5 py-5">
+                <h2>Meet Our Successfull Students</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout.</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100 border border-1">
+                        <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Awlad Hossain</h5>
+                            <p class="text-secondary">UIUX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border border-1">
+                        <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Jannatul Islam</h5>
+                            <p class="text-secondary">Motion Design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border border-1">
+                        <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Imran Hossain</h5>
+                            <p class="text-secondary">Graphic Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 border border-1">
+                        <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Nishi Akter</h5>
+                            <p class="text-secondary">Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center my-5">
+                <button class="btn btn-success px-3">View All</button>
             </div>
         </section>
     </main>
