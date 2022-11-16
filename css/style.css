@@ -10,7 +10,7 @@ body {
 
 /* ------- Slider ------ */
 
-.carousel-item::before {
+.carousel-overlay:before {
     content: "";
     display: block;
     position: absolute;
@@ -33,11 +33,35 @@ body {
 }
 
 h2 {
-    font-size: 2.95rem;
-    font-weight: 600;    
+    font-size: 45px;       
 }
 
 /* ------Corses----- */
+
+/* ------ Students Feedback ------ */
+.fa-star.filled {
+    color: goldenrod;
+}
+
+.fa-star.empty {
+    color: gold;
+}
+/* ===== Footer Area ===== */
+.footer-bg{
+    background-color: #161616;
+    height: 400px;
+}
+footer h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+footer p{
+    color: #c4bfbf;
+}
+.icons-bg{
+    background-color: #242424;
+    border-radius: 50%;
+}
 
 /* ======= Media Quiries ===== */
 
@@ -56,6 +80,12 @@ h2 {
 
 }
 @media only screen and (min-width: 669px) and (max-width: 991px) {
+    .carousel-caption {
+        bottom: 0;
+        top: 0;
+        padding: 0;
+        margin: 15px;
+    }
     .card-body h2{
         font-size: 2.25rem;
     }    
